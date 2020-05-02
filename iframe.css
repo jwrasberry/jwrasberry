@@ -1,0 +1,29 @@
+/* iframe css inject */
+
+.css-11lcaca{
+  display: none !important;
+}
+
+form{
+  background-color: #222 !important;
+}
+
+
+.iframe-wrap{
+  margin: 20px;
+  height: 900px;
+
+    border-top-width: 9px !important;
+    border-right-width: 9px !important;
+    border-bottom-width: 9px !important;
+    border-left-width: 9px !important; 
+    
+    border-left-color: rgba(255,255,255,0.3) !important;
+    border-left-style: double !important;
+    border-right-color: rgba(255,255,255,0.3) !important;
+    border-right-style: double !important;
+    border-top-color: rgba(255,255,255,0.3) !important;
+    border-top-style: double !important;
+    border-bottom-color: rgba(255,255,255,0.3) !important;
+    border-bottom-style: double !important;
+}
