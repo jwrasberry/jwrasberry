@@ -216,6 +216,61 @@
                 <div class="slide"><img src="https://toldi.net/img/affliates/TSI.png"></div>
             </section>
 
+            <div class="space100"></div>
+            <h2 class="display-5">What Clients Say</h2>
+            <hr class="my-4">
+            <p class="subtitle">In their own words, from recommendations on Jay&rsquo;s LinkedIn profile.</p>
+            <section class="testimonial-bubbles slider">
+                <div class="slide"><div class="t-bubble">
+                    <div class="t-mark">&ldquo;</div>
+                    <p class="t-quote">Jay has managed numerous field installations for me at Verizon Wireless and beyond. He is most polite, professional and responsive to any and all special requirements or specifications, and gets quality work from his employees and co-workers. I tend to be very picky and I cannot remember one job under his control that did not turn out successfully.</p>
+                    <p class="t-name">Robert VanBuhler</p>
+                    <p class="t-title">Senior Microwave Design Engineer</p>
+                </div></div>
+                <div class="slide"><div class="t-bubble">
+                    <div class="t-mark">&ldquo;</div>
+                    <p class="t-quote">Jay is very resourceful and he provides very good advise not only to improve the project timelines but also to provide the most cost effective solution. Jay is committed to quality and customer satisfaction.</p>
+                    <p class="t-name">Bernardo Portilla</p>
+                    <p class="t-title">CEO, Americas Communications LLC</p>
+                </div></div>
+                <div class="slide"><div class="t-bubble">
+                    <div class="t-mark">&ldquo;</div>
+                    <p class="t-quote">Jay provided project and construction management services for several Nokia microwave projects. His experience, dedication and work ethic sets him apart. He was always willing and able to tackle any issues we encountered and always showed good judgment and tenacity to get the job done right.</p>
+                    <p class="t-name">Gregg Cashen</p>
+                    <p class="t-title">Director, Enterprise Business Centre (Retired)</p>
+                </div></div>
+                <div class="slide"><div class="t-bubble">
+                    <div class="t-mark">&ldquo;</div>
+                    <p class="t-quote">I've known Jay Rasberry since 2000... the one thing I can always count on is that Jay will answer a call if I needed work done. Jay has a great work ethic, he is honest and always willing to learn something new... I would not hesitate to put him to work for my company.</p>
+                    <p class="t-name">Art Vos</p>
+                    <p class="t-title">Independent Consultant</p>
+                </div></div>
+                <div class="slide"><div class="t-bubble">
+                    <div class="t-mark">&ldquo;</div>
+                    <p class="t-quote">Jay is a pleasure to work with, he has excellent people skills and an outstanding work ethic. Jay's technical knowledge combined with his people skills and willingness to roll up his sleeves put him at the head of the pack. Give Jay a try; you'll be glad you did.</p>
+                    <p class="t-name">Steve Ferguson</p>
+                    <p class="t-title">Renewables Consultant</p>
+                </div></div>
+                <div class="slide"><div class="t-bubble">
+                    <div class="t-mark">&ldquo;</div>
+                    <p class="t-quote">Jay is a person who has a good work ethic and understands the details of various scopes of work which in turn gives him the ability to effectively manage various types of wireless construction projects. Jay focuses on delivering a quality product communicating with customers and crews throughout the project.</p>
+                    <p class="t-name">Daniel Adickes</p>
+                    <p class="t-title">Vice President, WesTower</p>
+                </div></div>
+            </section>
+
+<style>
+.testimonial-bubbles .slide{margin:0 14px;}
+.testimonial-bubbles .slick-list{padding:12px 0 30px;}
+.t-bubble{background:#fff;border-radius:18px;box-shadow:0 6px 20px rgba(16,38,76,.14);padding:24px 26px 20px;text-align:left;min-height:370px;display:flex;flex-direction:column;}
+.t-mark{font-family:Georgia,serif;font-size:3rem;line-height:.8;color:#224a9a;height:30px;}
+.t-quote{color:#3a3a3a;font-size:.95rem;line-height:1.6;flex:1 0 auto;margin:8px 0 18px;}
+.t-name{color:#224a9a;font-weight:500;margin:0;}
+.t-title{color:#888;font-size:.85rem;margin:2px 0 0;}
+@media (max-width:600px){.t-bubble{min-height:0;}}
+</style>
+
+
         </div>
     </section>
     <div class="space100"></div>
@@ -475,6 +530,21 @@
     <script src="https://toldi.net/js/popper.min.js"></script>
     <script src="https://toldi.net/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.0/slick.js"></script>
+<script>
+$(document).ready(function () {
+    $('.testimonial-bubbles').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        arrows: false,
+        dots: false,
+        pauseOnHover: true,
+        responsive: [{breakpoint: 992, settings: { slidesToShow: 2 }}, {breakpoint: 600, settings: { slidesToShow: 1 }}]
+    });
+});
+</script>
+
     <script src="https://toldi.net/js/animatedModal.min.js"></script>
 
 <style>
